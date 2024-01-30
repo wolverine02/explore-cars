@@ -4,9 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body{
-  background-color: #ff004f;
-} */
+body{
+  background-color: #bab86c;
+}
 
 * {
   margin: 0;
@@ -62,9 +62,9 @@
   @apply relative xl:w-full w-[90%] xl:h-full h-[590px] z-0;
 }
 
-.hero__image-overlay {
+/* .hero__image-overlay {
   @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
-}
+} */
 /* END: Hero styles */
 
 /* START: Home styles */
@@ -200,7 +200,7 @@
 }
 
 .searchbar__input {
-  @apply w-full h-[48px] pl-12 p-4 bg-light-white rounded-r-full max-sm:rounded-full outline-none cursor-pointer text-sm;
+  @apply w-full h-[48px] pl-12 p-4 bg-white rounded-r-full max-sm:rounded-full outline-none cursor-pointer text-sm;
 }
 /* END: searchbar styles */
 
@@ -210,7 +210,7 @@
 }
 
 .search-manufacturer__input {
-  @apply w-full h-[48px] pl-12 p-4 rounded-l-full max-sm:rounded-full bg-light-white outline-none cursor-pointer text-sm;
+  @apply w-full h-[48px] pl-12 p-4 rounded-l-full max-sm:rounded-full bg-white outline-none cursor-pointer text-sm;
 }
 
 .search-manufacturer__options {
